@@ -1,7 +1,0 @@
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/exception/ResourceNotFoundException.java
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/controller/SurveyController.java
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/StudentSurveyApplication.java
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/service/SurveyService.java
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/model/Survey.java
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/exception/GlobalExceptionHandler.java
-/Users/hzuberi/VSCode/SWE642/Assignment3/backend/src/main/java/edu/gmu/studentsurvey/repository/SurveyRepository.java
