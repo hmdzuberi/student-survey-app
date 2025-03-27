@@ -35,7 +35,7 @@ The application fulfills the following requirements:
 - **API**: RESTful Web Services
 - **Database Interaction**: JPA/Hibernate
 - **Database**: MySQL
-- **Build Tool**: Maven/Gradle
+- **Build Tool**: Maven
 ## Setup Instructions
 
 ### Prerequisites
@@ -60,7 +60,7 @@ The application fulfills the following requirements:
 5. The backend API will be available at: `http://localhost:8080/api/surveys`
 
 ### Database Setup
-1. Create a new MySQL database: `survey_db`
+1. Create a new MySQL database: `student_surveys`
 2. The application will automatically create the necessary tables on startup
 
 ## API Endpoints
@@ -79,4 +79,3 @@ The application fulfills the following requirements:
 - Interest source: friends, television, Internet, other (radio buttons)
 - Recommendation likelihood: Very Likely, Likely, Unlikely (dropdown)
 - Additional comments (text area)
-- 
