@@ -1,6 +1,4 @@
-# Student Survey
-
-## SWE 642 Assignment 3
+# Student Survey - SWE 642 Assignment 3
 
 - Hamaad Zuberi
 - G01413525
