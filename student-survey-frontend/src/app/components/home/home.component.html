@@ -1,0 +1,30 @@
+<!-- src/app/components/home/home.component.html -->
+<div class="container mt-5">
+    <div class="jumbotron">
+      <h1 class="display-4">Welcome to the Student Survey App</h1>
+      <p class="lead">
+        This application allows prospective students to provide feedback about their campus visit and view all survey responses.
+      </p>
+      <hr class="my-4">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Student Survey</h5>
+              <p class="card-text">Fill out a survey to provide feedback about your campus visit.</p>
+              <a [routerLink]="['/survey']" class="btn btn-primary">Go to Survey</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">List All Surveys</h5>
+              <p class="card-text">View all survey responses submitted to date.</p>
+              <a [routerLink]="['/surveys']" class="btn btn-primary">View Surveys</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
