@@ -1,3 +1,16 @@
+/**
+ * GlobalExceptionHandler is a centralized exception handling class for the application.
+ * It uses Spring's @ControllerAdvice to handle exceptions globally across all controllers.
+ * 
+ * Features:
+ * - Handles ResourceNotFoundException and returns a NOT_FOUND (404) response.
+ * - Handles generic exceptions and returns an INTERNAL_SERVER_ERROR (500) response.
+ * - Handles validation errors (MethodArgumentNotValidException) and returns a BAD_REQUEST (400) response
+ *   with detailed validation error messages.
+ * 
+ * This class ensures consistent error responses and improves the maintainability of the application.
+ */
+
 package edu.gmu.studentsurvey.exception;
 
 import java.util.Date;

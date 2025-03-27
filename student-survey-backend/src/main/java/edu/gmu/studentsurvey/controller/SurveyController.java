@@ -1,3 +1,16 @@
+/**
+ * SurveyController is a REST controller that handles HTTP requests for managing surveys.
+ * It provides endpoints to perform CRUD operations on surveys, including:
+ * - Retrieving all surveys
+ * - Retrieving a survey by its ID
+ * - Creating a new survey
+ * - Updating an existing survey
+ * - Deleting a survey by its ID
+ * 
+ * This controller interacts with the SurveyService to perform the necessary business logic.
+ * It also uses Spring Boot annotations to define request mappings and handle cross-origin requests.
+ */
+
 package edu.gmu.studentsurvey.controller;
 
 import edu.gmu.studentsurvey.model.Survey;

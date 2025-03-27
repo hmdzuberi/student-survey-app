@@ -1,3 +1,17 @@
+/**
+ * This class represents a Survey entity for a student survey application.
+ * It is mapped to a database table named "surveys" using JPA annotations.
+ * The Survey class contains fields for storing personal information, survey preferences,
+ * and additional comments provided by the user.
+ * 
+ * Key features:
+ * - Validation annotations ensure data integrity for fields like email, ZIP code, and telephone.
+ * - Includes fields for survey preferences such as liked aspects of the campus and interest sources.
+ * - Provides constructors, getters, and setters for all fields.
+ * 
+ * This class is used as part of the backend model for managing survey data.
+ */
+
 package edu.gmu.studentsurvey.model;
 
 import jakarta.persistence.*;
