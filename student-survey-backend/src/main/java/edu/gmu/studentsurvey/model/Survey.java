@@ -18,7 +18,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
-import java.util.Date;
+import java.time.LocalDate;
 
 @Entity
 @Table(name = "surveys")
@@ -64,8 +64,7 @@ public class Survey {
     private String email;
     
     @Column(nullable = false)
-    @Temporal(TemporalType.DATE)
-    private Date surveyDate;
+    private LocalDate surveyDate;
     
     private boolean likedStudents;
     private boolean likedLocation;
@@ -91,7 +90,7 @@ public class Survey {
     // Constructor with all fields
     public Survey(String firstName, String lastName, String streetAddress,
                  String city, String state, String zip, String telephone,
-                 String email, Date surveyDate, boolean likedStudents,
+                 String email, LocalDate surveyDate, boolean likedStudents,
                  boolean likedLocation, boolean likedCampus, boolean likedAtmosphere,
                  boolean likedDormRooms, boolean likedSports, String interestSource,
                  String recommendationLikelihood, String additionalComments) {
@@ -143,8 +142,8 @@ public class Survey {
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
     
-    public Date getSurveyDate() { return surveyDate; }
-    public void setSurveyDate(Date surveyDate) { this.surveyDate = surveyDate; }
+    public LocalDate getSurveyDate() { return surveyDate; }
+    public void setSurveyDate(LocalDate surveyDate) { this.surveyDate = surveyDate; }
     
     public boolean isLikedStudents() { return likedStudents; }
     public void setLikedStudents(boolean likedStudents) { this.likedStudents = likedStudents; }
